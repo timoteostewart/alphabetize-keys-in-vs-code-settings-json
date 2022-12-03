@@ -1,0 +1,105 @@
+{
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[django-html]": {
+        "editor.defaultFormatter": "monosans.djlint"
+    },
+    "[git-commit]": {
+        "editor.rulers": [
+            50
+        ]
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.wordWrap": "on"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[python]": {
+        "editor.rulers": [
+            79
+        ]
+    },
+    "[yaml]": {
+        "editor.tabSize": 4
+    },
+    "django.snippets.exclude": [
+        "cms",
+        "wagtail"
+    ],
+    "djlint.useVenv": true,
+    "editor.accessibilitySupport": "off",
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "Inter Regular, Consolas, 'Courier New', monospace",
+    "editor.fontSize": 15,
+    "editor.hover.delay": 1500,
+    "editor.insertSpaces": true,
+    "editor.largeFileOptimizations": false,
+    "editor.lineHeight": 1.5,
+    "editor.matchBrackets": "near",
+    "editor.occurrencesHighlight": false,
+    "editor.quickSuggestionsDelay": 1000,
+    "editor.renderLineHighlight": "all",
+    "editor.tabSize": 4,
+    "editor.unicodeHighlight.allowedCharacters": {
+        "\u2019": true
+    },
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 120,
+    "editor.wrappingIndent": "deepIndent",
+    "emmet.preferences": {},
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.useInlineCompletions": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.associations": {
+        "**/templates/*": "django-txt",
+        "**/templates/*.html": "django-html",
+        "*html": "html"
+    },
+    "files.exclude": {
+        "**/.git": false
+    },
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableCommitSigning": true,
+    "git.enableSmartCommit": true,
+    "githubPullRequests.remotes": [
+        "origin",
+        "upstream"
+    ],
+    "go.toolsManagement.autoUpdate": true,
+    "gopls": {
+        "experimentalWorkspaceModule": true
+    },
+    "html.format.wrapAttributes": "force",
+    "prettier.tabWidth": 4,
+    "python.analysis.autoImportCompletions": true,
+    "python.defaultInterpreterPath": "C:\\Users\\tim_berners_lee\\AppData\\Local\\Microsoft\\WindowsApps\\python3.10.exe",
+    "python.experiments.optInto": [],
+    "python.formatting.provider": "black",
+    "python.languageServer": "Pylance",
+    "redhat.telemetry.enabled": false,
+    "remote.SSH.remotePlatform": {
+        "192.168.1.200": "linux",
+        "192.168.1.201": "linux"
+    },
+    "terminal.integrated.defaultProfile.osx": "bash",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.fontFamily": "Consolas",
+    "terminal.integrated.scrollback": 99999,
+    "window.commandCenter": false,
+    "window.zoomLevel": 1,
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#00000000",
+        "editor.lineHighlightBorder": "#2980B9"
+    },
+    "workbench.hover.delay": 2000,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none"
+}
